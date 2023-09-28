@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: rgba(173, 173, 178, 0.493);
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    
+}
+.nav__collection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    list-style: none;
+    gap: 40px;
+    z-index: 3;
+}
+.nav__item{
+    font-size: 12px;
+    /* transition: 2s; */
+}
+.store a{
+    text-decoration: none;
+    color: black;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav a{
+    text-decoration: none;
+}
+.section{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    background: url("./hero_iphone15pro_announce__c1coc7n3a0uq_large.jpg")no-repeat center;
+    padding: 40px 10%;
+}
+.section__logo{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 16px;
+}
+.p{
+    color: rgb(119, 117, 117);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.store1{
+    width: 100%;
+    height: 400px;
+    background:#fff;
+    padding: 30px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.store__1{
+    width: 30%;
+    height: 350px;
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+}
+.top{
+    color: #9a9999;
+    font-size: 12px;
+}
+.sop{
+    line-height: 2;
+    font-size: 22px;
+}
+.stop{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.sert{
+    margin-top: 10px;
+}
+.mac a{
+    text-decoration: none;
+    color: black;
+}
+.ipad a{
+    text-decoration: none;
+    color: black;
+}
+
